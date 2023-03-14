@@ -9,7 +9,7 @@
 	"dependencies":
 	[
 		"base >= 1.1", 
-		"! Insectitron >= 1.1.1",
+		"? Insectitron >= 1.1.1",
 		"? SpaceMod >= 1.1.1",
 		"? TeleportationEquipment >= 1.0.3",
 		"? osm-radioactivity >= 1.1.42"
