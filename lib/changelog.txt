@@ -1,0 +1,6 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 14.03.2023
+  Features:
+    - All un important compatibility added here.
+    - Issue info. about mods that have limited functionality.
