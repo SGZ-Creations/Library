@@ -12,7 +12,7 @@ local function check_for_error(event)
   if script.active_mods["SpaceMod"] then
     if settings.startup["SpaceMod-issue"].value then
       game.print(
-        "\nSpaceMod currently has recipes that don't work due to items it uses Compatibilit is being worked on.\nYou can dissable this message in startup settings if u don't want the warnings."
+        "\nSpaceMod currently has recipes that don't work due to items it uses. Compatibility is being worked on.\nYou can dissable this message in startup settings if u don't want the warnings."
       )
     end
   end
