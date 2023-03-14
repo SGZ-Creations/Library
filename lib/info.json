@@ -21,7 +21,8 @@
 			"README.md",
 			".gitignore",
 			"todo-complete",
-			"todo-complete/Completed.cpp",
+			"todo-complete/ToDo.cpp",
+			"todo-complete/Temp.cpp",
 			"todo-complete/Completed.cpp"
 		]
 	}
