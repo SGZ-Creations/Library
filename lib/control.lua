@@ -20,7 +20,7 @@ local function check_for_error(event)
   if script.active_mods["TeleportationEquipment"] then
     if settings.startup["Teleportation-issue"].value then
       game.print(
-        "\nThis mod has technolegy blockage.\nYou can dissable this message in startup settings if u don't want the warnings."
+        "\nTeleportationEquipment mod has technolegy blockage.\nYou can dissable this message in startup settings if u don't want the warnings."
       )
     end
   end
