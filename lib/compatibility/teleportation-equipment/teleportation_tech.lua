@@ -12,7 +12,7 @@ if mods["TeleportationEquipment"] then
           recipe = "teleportation-equipment"
         }
       },
-      prerequisites = 
+      prerequisites =
       {
         "armour_4"
       },
