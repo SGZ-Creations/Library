@@ -26,8 +26,8 @@
 			"todo-complete/Temp.cpp",
 			"todo-complete/Completed.cpp",
 			"compatibility/teleportation-equipment/teleportation_tech.lua",
-			"compatibility/osm-radioactivity",
-			"compatibility/Insectitron"
+			"compatibility/osm-radioactivity/radioactivity_tech.lua",
+			"compatibility/Insectitron/insectitron-tech.lua"
 		]
 	}
 }
