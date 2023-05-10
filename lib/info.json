@@ -24,7 +24,8 @@
 			"todo-complete",
 			"todo-complete/ToDo.cpp",
 			"todo-complete/Temp.cpp",
-			"todo-complete/Completed.cpp"
+			"todo-complete/Completed.cpp",
+			"compatibility/teleportation-equipment/teleportation_tech.lua"
 		]
 	}
 }
