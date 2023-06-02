@@ -15,7 +15,7 @@ data:extend({
         recipe = "spidertron-remote"
       }
     },
-    prerequisites = 
+    prerequisites =
     {
       "military-4",
       "exoskeleton_5",

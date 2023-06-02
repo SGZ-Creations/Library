@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 02.06.2023
+  Changes:
+    - RampantArsenal Message change due to Blockage removed.
+  Compatibility:
+    - Better Support: K2, Ramant Aresenal, Nanobots.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.3
 Date: 14.05.2023
   Fixes:
@@ -10,7 +17,7 @@ Date: 10.05.2023
     - Fixed Depencies to make Power Armour & Replacer mod recognize this mod.
     - Forgot to Dissable file(s) i excluded.
   Info:
-    - The for lib mod needing name due to invalid name unde uploade. 
+    - The lib mod needing new name due to invalid name under uploade. 
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 10.05.2023

@@ -18,7 +18,7 @@ if mods["SpaceMod"]	then
 			},
 			prerequisites =	
 			{
-			"shields_5",
+			"shield_5",
 			"space-construction",
 			},
 			unit =
@@ -50,7 +50,7 @@ if mods["SpaceMod"]	then
 			},
 			prerequisites = 
 			{
-				"shields_5",
+				"shield_5",
 				"space-construction",
 			},
 			unit =
