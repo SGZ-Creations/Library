@@ -14,7 +14,7 @@ if mods["TeleportationEquipment"] then
       },
       prerequisites =
       {
-        "armour_4"
+        "armour_3"
       },
       unit =
       {

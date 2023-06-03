@@ -20,7 +20,7 @@ local function check_for_error(event)
   if script.active_mods["TeleportationEquipment"] then
     if settings.startup["Teleportation-issue"].value then
       game.print(
-        "\nTeleportationEquipment mod has technolegy blockage.\nYou can dissable this message in startup settings if u don't want the warnings."
+        "\nTeleportationEquipment mod has technology changes made by this mod.\nYou can dissable this message in startup settings if u don't want the warnings."
       )
     end
   end
@@ -28,7 +28,7 @@ local function check_for_error(event)
   if script.active_mods["osm-radioactivity"] then
     if settings.startup["radioactivity-issue"].value then
       game.print(
-        "\nThis mod has technolegy blockage.\nYou can dissable this message in startup settings if u don't want the warnings."
+        "\nThis mod has technology blockage.\nYou can dissable this message in startup settings if u don't want the warnings."
       )
     end
   end

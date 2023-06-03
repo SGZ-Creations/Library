@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 03.06.2023
+  Changes:
+    - Changes to Teleportation Equipment mod.
+    - Changes to text message displayed in game if Teleportation Equipment mod is enabled.
+    - Requires Version 0.1.33 of P.A.R.
+    - Removed line of file reference to other mod compatibility that no longer exsist or are being used. (github, Info.json)
+---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 02.06.2023
   Changes:
