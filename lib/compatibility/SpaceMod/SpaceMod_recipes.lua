@@ -18,7 +18,7 @@ if mods["SpaceMod"] then
       energy_required = 100,
       ingredients =
       {
-        {"s_mk5", 1000},
+        {"s_mk5", 200},
       },
       result = "protection-field"
     },

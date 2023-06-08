@@ -12,7 +12,7 @@ local function check_for_error(event)
   if script.active_mods["SpaceMod"] then
     if settings.startup["SpaceMod-issue"].value then
       game.print(
-        "\nSpaceMod currently has recipes that don't work due to items it uses. Compatibility is being worked on.\nYou can dissable this message in startup settings if u don't want the warnings."
+        "\nSpaceMod should be working fine.\nPlease report things that could been missed.\nYou can dissable this message in startup settings if u don't want the warnings."
       )
     end
   end
@@ -28,7 +28,7 @@ local function check_for_error(event)
   if script.active_mods["osm-radioactivity"] then
     if settings.startup["radioactivity-issue"].value then
       game.print(
-        "\nThis mod has technology blockage.\nYou can dissable this message in startup settings if u don't want the warnings."
+        "\nosm-radioactivity Should be working fine has no changes to it.\nShould u find issue please let me know\nYou can dissable this message in startup settings if u don't want the warnings."
       )
     end
   end

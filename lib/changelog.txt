@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 08.06.2023
+  Changes:
+    - Value of shields used for making portection field in SpaceX reduced 1000mk5 --> 200mk5 (Incompatible with SE)
+    - In game messages adjusted to be more accurate to the current or coming progress.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.5
 Date: 03.06.2023
   Changes:
