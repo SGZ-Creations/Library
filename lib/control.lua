@@ -4,7 +4,7 @@ local function check_for_error(event)
   if script.active_mods["Insectitron"] then
       if settings.startup["Insectitron-issue"].value then
       printer(
-        "\nInsectitron mod currenty has recipe that don't work due to items it uses.\nYou can dissable this message in startup settings if u don't want the warnings."
+        "\nInsectitron mod should currently be working as expected.\nYou can dissable this message in startup settings if u don't want the warnings."
       )
       end
   end
@@ -12,7 +12,7 @@ local function check_for_error(event)
   if script.active_mods["SpaceMod"] then
     if settings.startup["SpaceMod-issue"].value then
       game.print(
-        "\nSpaceMod should be working fine.\nPlease report things that could been missed.\nYou can dissable this message in startup settings if u don't want the warnings."
+        "\nSpaceMod has changes made by P.A.R mod.\nCurrently bugged if played with bob's.\nPlease report things that could been missed.\nYou can dissable this message in startup settings if u don't want the warnings."
       )
     end
   end
@@ -20,7 +20,7 @@ local function check_for_error(event)
   if script.active_mods["TeleportationEquipment"] then
     if settings.startup["Teleportation-issue"].value then
       game.print(
-        "\nTeleportationEquipment mod has technology changes made by this mod.\nYou can dissable this message in startup settings if u don't want the warnings."
+        "\nTeleportationEquipment mod has technology changes made by P.A.R mod.\nThat also causes issue with shotcuts\nYou can dissable this message in startup settings if u don't want the warnings."
       )
     end
   end

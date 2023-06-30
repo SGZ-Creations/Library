@@ -70,3 +70,8 @@ if mods["SpaceMod"]	then
 		},
 	})
 end
+--[[
+if mods["boblibrary"] and mods["SpaceMod"] then 
+	bobmods.lib.tech.add_prerequisite("protection-fields", "shield_5")
+	bobmods.lib.tech.add_prerequisite("fusion-reactor", "fusion-reactor_4")
+end]]

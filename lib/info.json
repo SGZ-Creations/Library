@@ -2,19 +2,20 @@
 	"name": "par_lib",
 	"title": "P.A.R Library",
 	"factorio_version": "1.1",
-	"version": "0.1.6",
+	"version": "0.1.7",
 	"author": "SGZ_Creations",
 	"contact": "https://discord.gg/tbxnpsxkDM",
 	"homepage": "https://github.com/SGZ-Creations/MK10-Armours",
 	"dependencies":
 	[
 		"base >= 1.1.80",
-		"Power-Armour-Replacer >= 0.1.33",
+		"Power-Armour-Replacer >= 0.1.34",
 		"(?) Insectitron >= 1.1.1",
 		"(?) SpaceMod >= 1.1.1",
 		"(?) TeleportationEquipment >= 1.0.3",
 		"(?) osm-radioactivity >= 1.1.42",
-		"(?) Nanobots >= 3.2.19"
+		"(?) Nanobots >= 3.2.19",
+		"(?) boblibrary >= 1.1.6"
 	],
 	"description":"Compatibility & Fixes for all mods in my mod pack",
 	"package": {

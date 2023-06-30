@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 12.06.2023
+  Changes:
+    - In Game Warning/Issue message regarding Teleportation Equipment mod.
+    - Requires version 0.1.34 of P.A.R.
+  Fixes:
+    - Attempted to Change Technology for SpaceX using bob-energy-shield-equipment-6 instead of shield_5 or shield_6
+    - Added Technology conversion. Some mods won't have the converison works for some reason so only fix to it would on the other mods side. Have attempted anything possible.
+    - Mods having the conversion broken is: SpaceX, Teleportation Equipment.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.6
 Date: 08.06.2023
   Changes:
