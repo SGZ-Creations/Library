@@ -1,3 +1,4 @@
+--[[
 data:extend({
   {
       type = "recipe",
@@ -18,3 +19,4 @@ data:extend({
       result = "spidertron"
   }
 })
+]]

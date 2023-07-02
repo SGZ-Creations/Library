@@ -1,3 +1,4 @@
+--[[
 local function check_for_error(event)
   local printer = game.print
 
@@ -20,7 +21,7 @@ local function check_for_error(event)
   if script.active_mods["TeleportationEquipment"] then
     if settings.startup["Teleportation-issue"].value then
       game.print(
-        "\nTeleportationEquipment mod has technology changes made by P.A.R mod.\nThat also causes issue with shotcuts\nYou can dissable this message in startup settings if u don't want the warnings."
+        "\nTeleportationEquipment mod has technology changes made by P.A.R mod.\nYou can dissable this message in startup settings if u don't want the warnings."
       )
     end
   end
@@ -42,3 +43,4 @@ end
 script.on_init(on_configuration_changed)
 script.on_configuration_changed(on_configuration_changed)
 script.on_event(defines.events.on_player_created, check_for_error)
+]]

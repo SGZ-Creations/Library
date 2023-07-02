@@ -1,45 +1,5 @@
+--[[
 data:extend({
-  {
-    type = "technology",
-    name = "spidertron",
-    icon_size = 256, icon_mipmaps = 4,
-    icon = "__base__/graphics/technology/spidertron.png",
-    effects =
-    {
-      {
-        type = "unlock-recipe",
-        recipe = "spidertron"
-      },
-      {
-        type = "unlock-recipe",
-        recipe = "spidertron-remote"
-      }
-    },
-    prerequisites =
-    {
-      "military-4",
-      "exoskeleton_5",
-      "fusion-reactor_5",
-      "rocketry",
-      "rocket-control-unit",
-      "effectivity-module-3"
-    },
-    unit =
-    {
-      ingredients =
-      {
-        {"automation-science-pack", 1},
-        {"logistic-science-pack", 1},
-        {"military-science-pack", 1},
-        {"chemical-science-pack", 1},
-        {"production-science-pack", 1},
-        {"utility-science-pack", 1},
-      },
-      time = 30,
-      count = 2500
-    },
-    order = "d-e-g"
-  },
   {
     type = "technology",
     name = "discharge-defense-equipment",
@@ -78,3 +38,4 @@ data:extend({
     order = "g-o"
   },
 });
+]]

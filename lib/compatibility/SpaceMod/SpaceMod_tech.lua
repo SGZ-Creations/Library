@@ -1,3 +1,4 @@
+--[[
 if mods["SpaceMod"]	then
 	data:extend({
 		{
@@ -70,8 +71,17 @@ if mods["SpaceMod"]	then
 		},
 	})
 end
+]]
 --[[
 if mods["boblibrary"] and mods["SpaceMod"] then 
 	bobmods.lib.tech.add_prerequisite("protection-fields", "shield_5")
 	bobmods.lib.tech.add_prerequisite("fusion-reactor", "fusion-reactor_4")
-end]]
+end
+]]
+--[[
+for tech_name, _ in pairs(data.raw.technology) do
+  if bobmods.lib.tech.has_prerequisite(tech_name, "old-tech-name") then
+    bobmods.lib.tech.replace_prerequisite(tech_name, "old-tech-name", "new-tech-name")
+  end
+end
+]]

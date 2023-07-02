@@ -1,17 +1,6 @@
-
+--[[
 if mods["SpaceMod"] then
   data:extend({
-    {
-      type = "recipe",
-      name = "protection-field",
-      enabled = false,
-      energy_required = 100,
-      ingredients =
-      {
-        {"s_mk10", 100},
-      },
-      result = "protection-field"
-    },
     {
       type = "recipe",
       name = "protection-field-goopless",
@@ -32,9 +21,11 @@ if mods["SpaceMod"] then
     },
   })
 end
+]]
 --[[
 if mods["boblibrary"] and mods["SpaceMod"] then 
   bobmods.lib.recipe.replace_ingredient ("fusion-reactor", "fusion-reactor-equipment", "f_mk5")
   bobmods.lib.recipe.replace_ingredient ("protection-field", "energy-shield-mk2-equipment", "s_mk5")
 end
 ]]
+

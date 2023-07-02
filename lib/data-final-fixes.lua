@@ -1,8 +1,7 @@
---require("util")
 
 -- Vanilla
-require("compatibility.vanilla.vanilla_recipes")
-require("compatibility.vanilla.vanilla_tech")
+--require("compatibility.vanilla.vanilla_recipes")
+--require("compatibility.vanilla.vanilla_tech")
 
 --TeleportationEquipment Mod
 require("compatibility.teleportation-equipment.teleportation_tech")
@@ -11,4 +10,4 @@ require("compatibility.teleportation-equipment.teleportation_tech")
 require("compatibility.SpaceMod.SpaceMod_recipes")
 
 --Any-else
-require("compatibility.Misc.misc")
+--require("compatibility.Misc.misc-tech")
