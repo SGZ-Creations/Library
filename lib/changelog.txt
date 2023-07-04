@@ -4,6 +4,7 @@ Date: 02.07.2023
   Changes:
     - Teleprotation Equipment had update. Changed Warning message to take this in to account.
     - Stil requires version 0.1.34 of P.A.R. Witch currently is only avalible on my discord. Sorry for the inconveniance.
+    - The mod can become depricated soon. How long stil unknown.
   Thanks:
     - Discord @Dr Pez. For a big compatibility improvement. Allowing me to reduce some file size.
 ---------------------------------------------------------------------------------------------------

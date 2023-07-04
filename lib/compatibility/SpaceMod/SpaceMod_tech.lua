@@ -1,10 +1,10 @@
---[[
+
 if mods["SpaceMod"]	then
 	data:extend({
 		{
 			type = "technology",
 			name = "protection-fields",
-			icon_size =	256, icon_mipmaps =	4,
+			icon_size =	128, icon_mipmaps =	4,
 			icon = "__SpaceMod__/graphics/technology/fusion-reactor.png",
 			effects	=
 			{
@@ -19,7 +19,7 @@ if mods["SpaceMod"]	then
 			},
 			prerequisites =	
 			{
-			"shield_5",
+			"shield_6",
 			"space-construction",
 			},
 			unit =
@@ -40,7 +40,7 @@ if mods["SpaceMod"]	then
 		{
 			type = "technology",
 			name = "fusion-reactor",
-			icon_size = 256, icon_mipmaps = 4,
+			icon_size = 128, icon_mipmaps = 4,
 			icon = "__SpaceMod__/graphics/technology/fusion-reactor.png",
 			effects =
 			{
@@ -51,7 +51,7 @@ if mods["SpaceMod"]	then
 			},
 			prerequisites = 
 			{
-				"shield_5",
+				"fusion-reactor_4",
 				"space-construction",
 			},
 			unit =
@@ -71,17 +71,27 @@ if mods["SpaceMod"]	then
 		},
 	})
 end
-]]
+
 --[[
 if mods["boblibrary"] and mods["SpaceMod"] then 
 	bobmods.lib.tech.add_prerequisite("protection-fields", "shield_5")
 	bobmods.lib.tech.add_prerequisite("fusion-reactor", "fusion-reactor_4")
 end
+
+if mods["boblibrary"] and mods["SpaceMod"] then 
+	for tech_name, _ in pairs(data.raw.technology) do
+		if bobmods.lib.tech.has_prerequisite(tech_name, "old-tech-name") then
+			bobmods.lib.tech.replace_prerequisite(tech_name, "old-tech-name", "new-tech-name")
+		end
+	end
+end
 ]]
 --[[
-for tech_name, _ in pairs(data.raw.technology) do
-  if bobmods.lib.tech.has_prerequisite(tech_name, "old-tech-name") then
-    bobmods.lib.tech.replace_prerequisite(tech_name, "old-tech-name", "new-tech-name")
-  end
+if mods["boblibrary"] and mods["SpaceMod"] then 
+	for tech_name, _ in pairs(data.raw.technology) do
+		if bobmods.lib.tech.has_prerequisite(tech_name, "old-tech-name") then
+			bobmods.lib.tech.replace_prerequisite(tech_name, "old-tech-name", "new-tech-name")
+		end
+	end
 end
 ]]

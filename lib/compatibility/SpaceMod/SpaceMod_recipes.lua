@@ -1,4 +1,4 @@
---[[
+
 if mods["SpaceMod"] then
   data:extend({
     {
@@ -8,7 +8,7 @@ if mods["SpaceMod"] then
       energy_required = 100,
       ingredients =
       {
-        {"s_mk5", 100},
+        {"s_mk3", 1000},
         {"advanced-processing-unit", 1000},
         {"effectivity-module-4", 400},
         {"productivity-module-4", 400},
@@ -21,11 +21,11 @@ if mods["SpaceMod"] then
     },
   })
 end
-]]
+
 --[[
 if mods["boblibrary"] and mods["SpaceMod"] then 
   bobmods.lib.recipe.replace_ingredient ("fusion-reactor", "fusion-reactor-equipment", "f_mk5")
   bobmods.lib.recipe.replace_ingredient ("protection-field", "energy-shield-mk2-equipment", "s_mk5")
 end
-]]
+
 
