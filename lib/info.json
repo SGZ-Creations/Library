@@ -17,7 +17,7 @@
 		"(?) Nanobots >= 3.2.19",
 		"(?) boblibrary >= 1.1.6"
 	],
-	"description":"Compatibility & Fixes for all mods in my mod pack",
+	"description":"Compatibility & Fixes for all mods in my mod pack.\nPlease read changelogs",
 	"package": {
 		"ignore": [
 			"Done.cpp",

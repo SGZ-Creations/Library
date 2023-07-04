@@ -2,11 +2,14 @@
 Version: 0.1.8
 Date: 02.07.2023
   Changes:
-    - Teleprotation Equipment had update. Changed Warning message to take this in to account.
-    - Stil requires version 0.1.34 of P.A.R. Witch currently is only avalible on my discord. Sorry for the inconveniance.
-    - The mod can become depricated soon. How long stil unknown.
+    - Teleportation Equipment had an update. Changed Warning message to take this into account.
+    - The mod can become depricated soon. How long still unknown.
   Thanks:
     - Discord @Dr Pez. For a big compatibility improvement. Allowing me to reduce some file size.
+  Info:
+    - Still requires version 0.1.34 of P.A.R. which currently is only avalible on my discord. Sorry for the inconveniance. Will be posted when done.
+    - The P.A.R. lib publish is just for my own convenience to say that the changes & fixes on the lib is done compared to the main mod. Which at this time is stil being worked on.
+    - Tho i won't make it reqire a version not posted anywere exsample: (0.2.0 without having it posted anywhere)
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.7
 Date: 30.06.2023
