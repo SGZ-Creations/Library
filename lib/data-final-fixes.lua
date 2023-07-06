@@ -11,4 +11,4 @@ require("compatibility.teleportation-equipment.teleportation_tech")
 require("compatibility.SpaceMod.SpaceMod_tech")
 
 --Any-else
---require("compatibility.Misc.misc-tech")
+require("compatibility.Misc.misc-tech")
