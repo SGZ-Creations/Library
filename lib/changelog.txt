@@ -5,7 +5,7 @@ Date: 06.07.2023
     - If u downloaded PAR mod from my Discord 0.1.34-5. you are good.
     - Other wise go there and pick that beta verion before update to 0.1.7-0.1.9.
   Fixes:
-    - NANOBOT Code was not applied by me forgetting to re-enable my require file :P
+    - NANOBOT Code was not applied as i forgot to re-enable my require file :P
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.8
 Date: 02.07.2023
@@ -15,17 +15,17 @@ Date: 02.07.2023
   Thanks:
     - Discord @Dr Pez. For a big compatibility improvement. Allowing me to reduce some file size.
   Info:
-    - Still requires version 0.1.34 of P.A.R. which currently is only avalible on my discord. Sorry for the inconveniance. Will be posted when done.
-    - The P.A.R. lib publish is just for my own convenience to say that the changes & fixes on the lib is done compared to the main mod. Which at this time is stil being worked on.
-    - Tho i won't make it reqire a version not posted anywere exsample: (0.2.0 without having it posted anywhere)
+    - Still requires version 0.1.34 of P.A.&.R. which currently is only avalible on my discord. Sorry for the inconveniance. Will be posted when done.
+    - The P.A.R-Lib publish is just for my own convenience to say that the changes & fixes on the lib is done compared to the main mod. Which at this time is stil being worked on.
+    - Tho i won't make it require a version not posted anywere exsample: (0.2.0 without having it posted anywhere)
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.7
 Date: 30.06.2023
   Changes:
     - In Game Warning/Issue message regarding Teleportation Equipment mod.
-    - Requires version 0.1.34 of P.A.R.
+    - Requires version 0.1.34 of P.A.&.R
   Fixes:
-    - Attempted to Change Technology for SpaceX using bob-energy-shield-equipment-6 instead of shield_5 or shield_6
+    - Attempted to Change Technology for SpaceX when using bob's mods away from bob-energy-shield-equipment-6 instead of shield_5 or shield_6 by PA&R mod.
     - Added Technology conversion. Some mods won't have the converison works for some reason so only fix to it would on the other mods side. Have attempted anything possible.
     - Mods having the conversion broken is: SpaceX, Teleportation Equipment.
 ---------------------------------------------------------------------------------------------------
@@ -40,7 +40,7 @@ Date: 03.06.2023
   Changes:
     - Changes to Teleportation Equipment mod.
     - Changes to text message displayed in game if Teleportation Equipment mod is enabled.
-    - Requires Version 0.1.33 of P.A.R.
+    - Requires Version 0.1.33 of P.A.&.R.
     - Removed line of file reference to other mod compatibility that no longer exsist or are being used. (github, Info.json)
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.4
