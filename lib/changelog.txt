@@ -2,7 +2,7 @@
 Version: 0.1.10
 Date: 10.07.2023
   Fixes:
-    - Fixed texture on SpaceX Compatibilty. The override made it look the same for both the Reactor & shield(s).
+    - Fixed texture on SpaceX Compatibility. The override made it look the same for both the Reactor & shield(s).
   Discord-Realese:
     - Version 0.1.34-6p2 P.A.&.R is out on Discord. By the time this update is out.
 ---------------------------------------------------------------------------------------------------
