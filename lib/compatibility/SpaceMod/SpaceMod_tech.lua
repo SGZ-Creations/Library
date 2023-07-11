@@ -5,7 +5,7 @@ if mods["SpaceMod"]	then
 			type = "technology",
 			name = "protection-fields",
 			icon_size =	128, icon_mipmaps =	4,
-			icon = "__SpaceMod__/graphics/technology/fusion-reactor.png",
+			icon = "__SpaceMod__/graphics/technology/protection-fields.png",
 			effects	=
 			{
 				{
