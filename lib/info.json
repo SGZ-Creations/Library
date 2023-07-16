@@ -8,14 +8,7 @@
 	"homepage": "https://github.com/SGZ-Creations/MK10-Armours",
 	"dependencies":
 	[
-		"base >= 1.1.80",
-		"Power-Armour-Replacer >= 0.1.34",
-		"(?) Insectitron >= 1.1.1",
-		"(?) SpaceMod >= 1.1.1",
-		"(?) TeleportationEquipment >= 1.0.3",
-		"(?) osm-radioactivity >= 1.1.42",
-		"(?) Nanobots >= 3.2.19",
-		"(?) boblibrary >= 1.1.6"
+		"base >= 1.1.80"
 	],
 	"description":"Compatibility & Fixes for all mods in my mod pack.\nPlease read changelogs",
 	"package": {
